@@ -66,6 +66,7 @@ resource "aws_security_group" "postgres_database_security_group" {
     }
   }
 
+
   egress {
     from_port = 0
     to_port   = 0
